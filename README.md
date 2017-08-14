@@ -2,6 +2,10 @@
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
+![screenshot](screenshot.jpg)
+
+After some text of the input is selected a pop-up menu is shown.
+
 ## Install
 
 - Add to your Gemfile:
@@ -23,7 +27,7 @@ Why 2 separated scripts? In this way you can include a different version of *med
 
 ## Notes
 
-**data-options** optional attribute permits to set *medium-editor* options directly - [options list](https://github.com/yabwe/medium-editor#mediumeditor-options)
+**data-options**: permits to set *medium-editor* options directly - see [options list](https://github.com/yabwe/medium-editor#mediumeditor-options)
 
 ## Example
 
@@ -32,16 +36,12 @@ Why 2 separated scripts? In this way you can include a different version of *med
   form do |f|
     f.inputs 'Article' do
       f.input :title
-      f.input :description, as: :medium_editor, input_html: { 'data-options': '{"toolbar":{"buttons":["bold","italic","underline","anchor"]}}' }
+      f.input :description, as: :medium_editor, input_html: { 'data-options': '{"spellcheck":false,"toolbar":{"buttons":["bold","italic","underline","anchor"]}}' }
       f.input :published
     end
     f.actions
   end
 ```
-
-## Screenshot
-
-![screenshot](screenshot.jpg)
 
 ## Contributors
 
