@@ -1,0 +1,29 @@
+@import './medium_editor/medium_editor'
+
+body.active_admin form
+  div.medium-editor
+    background-color: #fff
+    border-radius: 5px
+    border: 1px solid #96a8b2
+    display: inline-block
+    padding: 4px 6px 6px 6px
+    width: 450px
+  div.medium-editor:focus
+    border-color: transparent
+  textarea.medium-editor-hidden
+    display: none
+  .medium_editor > label
+    display: inline-block
+    float: none
+    vertical-align: top
+
+button.medium-editor-action
+  border-radius: 0
+
+// .selectize-control
+//   .selectize-input
+//     width: calc(80% - 22px)
+//   &.multi .selectize-input, .selectize-input
+//     padding: 0 5px
+//     &.has-items
+//       padding: 0 5px
