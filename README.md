@@ -1,6 +1,6 @@
 # ActiveAdmin Medium Editor [![Gem Version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
 
-An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor).
+An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
 ## Install
 
@@ -38,6 +38,10 @@ Why 2 separated scripts? In this way you can include a different version of *med
     f.actions
   end
 ```
+
+## Screenshot
+
+![screenshot](screenshot.jpg)
 
 ## Contributors
 
