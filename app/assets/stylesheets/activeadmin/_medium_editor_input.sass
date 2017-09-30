@@ -1,17 +1,31 @@
 @import './medium_editor/medium_editor'
 
 body.active_admin form
-  div.medium-editor
+  textarea.medium-editor-hidden
+    display: none
+  .medium-editor-element
     background-color: #fff
     border-radius: 5px
     border: 1px solid #96a8b2
     display: inline-block
+    max-height: 200px
+    overflow-y: scroll
     padding: 4px 6px 6px 6px
     width: 450px
-  div.medium-editor:focus
+    // reset internal elements
+    *
+      margin: initial
+      padding: initial
+      text-align: initial
+    ol
+      list-style-type: decimal
+    ul
+      list-style-type: disc
+    ul, ol
+      margin: 0 1.5em 1.5em 0
+      padding-left: 1.5em
+  .medium-editor-element:focus
     border-color: transparent
-  textarea.medium-editor-hidden
-    display: none
   .medium_editor > label
     display: inline-block
     float: none
