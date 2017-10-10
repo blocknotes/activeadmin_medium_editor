@@ -14,7 +14,7 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 - Add at the end of your ActiveAdmin styles (_app/assets/stylesheets/active_admin.scss_):
 ```css
 @import 'activeadmin/medium_editor_input';
-@import 'activeadmin/medium_editor/themes/default'; // or another theme
+@import 'activeadmin/medium_editor/themes/default.css'; // or another theme
 ```
 - Add at the end of your ActiveAdmin javascripts (_app/assets/javascripts/active_admin.js_):
 ```js
