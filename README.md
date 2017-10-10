@@ -21,11 +21,6 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 //= require activeadmin/medium_editor/medium_editor
 //= require activeadmin/medium_editor_input
 ```
-Or if you are using coffeescript
-```coffeescript
-#= require activeadmin/medium_editor/medium_editor
-#= require activeadmin/medium_editor_input
-```
 - Use the input with `as: :medium_editor` in Active Admin model conf
 
 Why 2 separated scripts? In this way you can include a different version of *medium-editor* if you like.
