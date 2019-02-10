@@ -1,3 +1,4 @@
+require 'sass-rails'
 require 'active_admin'
 
 module ActiveAdmin
