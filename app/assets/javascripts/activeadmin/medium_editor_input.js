@@ -1,6 +1,6 @@
 function initMediumEditors() {
-  $('.medium-editor').each(function () {
-    if (!$(this).hasClass('medium-editor--active')) {
+  $('.medium-editor').each(function() {
+    if(!$(this).hasClass('medium-editor--active')) {
       var options = {};
       options = $.extend({}, options, $(this).data('options'));
       new MediumEditor($(this), options);
@@ -9,10 +9,10 @@ function initMediumEditors() {
   });
 }
 
-$(document).on('has_many_add:after', function () {
+$(document).on('has_many_add:after', function() {
   initMediumEditors();
 });
 
-$(document).ready( function() {
+$(document).ready(function() {
   initMediumEditors();
 });
