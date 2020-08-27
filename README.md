@@ -1,4 +1,4 @@
-# ActiveAdmin Medium Editor [![Gem Version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
+# ActiveAdmin Medium Editor [![Gem Version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor) [![CircleCI](https://circleci.com/gh/blocknotes/activeadmin_medium_editor.svg?style=svg)](https://circleci.com/gh/blocknotes/activeadmin_medium_editor)
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
@@ -61,7 +61,7 @@ Take a look at [other ActiveAdmin components](https://github.com/blocknotes?utf8
 
 ## Contributors
 
-- [Mattia Roccoberton](http://blocknot.es) - creator, maintainer
+- [Mattia Roccoberton](http://blocknot.es): author
 
 ## License
 
