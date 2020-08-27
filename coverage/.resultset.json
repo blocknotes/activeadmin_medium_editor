@@ -1,0 +1,74 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/mat/dev/ruby/rails/activeadmin_medium_editor/lib/activeadmin_medium_editor.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/mat/dev/ruby/rails/activeadmin_medium_editor/lib/formtastic/inputs/medium_editor_input.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/mat/dev/ruby/rails/activeadmin_medium_editor/lib/activeadmin/medium_editor/engine.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/mat/dev/ruby/rails/activeadmin_medium_editor/lib/activeadmin/medium_editor/version.rb": {
+        "lines": [
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/mat/dev/ruby/rails/activeadmin_medium_editor/lib/activeadmin/medium_editor.rb": {
+        "lines": [
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1598541054
+  }
+}
