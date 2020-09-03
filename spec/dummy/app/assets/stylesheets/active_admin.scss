@@ -1,5 +1,6 @@
 @import 'active_admin/mixins';
 @import 'active_admin/base';
 
+@import 'activeadmin/medium_editor/medium_editor';
 @import 'activeadmin/medium_editor_input';
-@import 'activeadmin/medium_editor/themes/default.css'; // or another theme
+@import 'activeadmin/medium_editor/themes/default'; // or another theme
