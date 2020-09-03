@@ -2,7 +2,7 @@
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
-![screenshot](screenshot.jpg)
+![screenshot](screenshot.png)
 
 *Usage*: select some text in the input, a pop-up menu is shown with the available buttons
 
