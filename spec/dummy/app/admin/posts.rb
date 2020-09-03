@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-ActiveAdmin.register Post do # rubocop:disable Metrics/BlockLength
+ActiveAdmin.register Post do
   permit_params :author_id, :title, :description, :category, :dt, :position, :published, tag_ids: []
 
   index do
