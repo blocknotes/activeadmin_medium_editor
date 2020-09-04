@@ -23,13 +23,11 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 //= require activeadmin/medium_editor_input
 ```
 - Use the input with `as: :medium_editor` in Active Admin model conf
+- **data-options**: permits to set *medium-editor* options directly - see [options list](https://github.com/yabwe/medium-editor#mediumeditor-options) (examples below)
 
-Why 2 separated scripts/styles? In this way you can include a different version of *medium-editor* if you like.
+> Why 2 separated scripts/styles? In this way you can include a different version of *medium-editor* if you like.
 
 > **UPDATE FROM VERSION < 2.8**: please change your _app/assets/stylesheets/active_admin.scss_ using the new import lines above
-
-## Options
-**data-options**: permits to set *medium-editor* options directly - see [options list](https://github.com/yabwe/medium-editor#mediumeditor-options)
 
 ## Examples
 
@@ -50,12 +48,11 @@ Why 2 separated scripts/styles? In this way you can include a different version 
 ### Buttons configuration
 
 ```ruby
-f.input :description, as: :medium_editor, input_html: { data: { options: '{"spellcheck":false,"toolbar":{"buttons":["bold","italic","underline","anchor","orderedlist","unorderedlist","strikethrough","subscript","superscript","pre","h1","h2","h3","h4","h5","h6","html"]}}' } }
+toolbar = { buttons: %w[bold italic underline strikethrough subscript superscript anchor image quote pre orderedlist unorderedlist indent outdent justifyLeft justifyCenter justifyRight justifyFull h1 h2 h3 h4 h5 h6 removeFormat html] }
+f.input :description, as: :medium_editor, input_html: { data: { options: { toolbar: toolbar } } }
 ```
 
-## Notes
-- With the current version of Medium Editor some default buttons seem to not work properly, from my test they are: "indent", "outdent", "quote", "justifyLeft", "justifyCenter", "justifyRight", "justifyFull"
-- If some of this feature are needed I could suggest to override the button behavior or to use custom style classes. See the Medium Editor documentation for details.
+For details about the buttons' effect please refer to medium-editor documentation.
 
 ## Do you like it? Star it!
 If you use this component just star it. A developer is more motivated to improve a project when there is some interest.
@@ -67,4 +64,4 @@ Take a look at [other Active Admin components](https://github.com/blocknotes?utf
 - The good guys that opened issues and pull requests from time to time
 
 ## License
-- The gem is available as open-source under the terms of the [MIT](LICENSE.txt)
+The gem is available as open-source under the terms of the [MIT](LICENSE.txt).

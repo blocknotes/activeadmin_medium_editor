@@ -21,8 +21,47 @@ body.active_admin form {
       text-align: initial;
     }
 
+    h1 {
+      margin-top: 0.67em;
+      margin-bottom: 0.67em;
+    }
+
+    h2 {
+      margin-top: 0.83em;
+      margin-bottom: 0.83em;
+    }
+
+    h3 {
+      margin-top: 1em;
+      margin-bottom: 1em;
+    }
+
+    h4 {
+      margin-top: 1.33em;
+      margin-bottom: 1.33em;
+    }
+
+    h5 {
+      margin-top: 1.67em;
+      margin-bottom: 1.67em;
+    }
+
+    h6 {
+      margin-top: 2.33em;
+      margin-bottom: 2.33em;
+    }
+
+    blockquote {
+      margin: 1.5em;
+    }
+
     ol {
       list-style-type: decimal;
+    }
+
+    p {
+      margin-top: 1em;
+      margin-bottom: 1em;
     }
 
     ul {
@@ -30,8 +69,8 @@ body.active_admin form {
     }
 
     ul, ol {
-      margin: 0 1.5em 1.5em 0;
-      padding-left: 1.5em;
+      margin: 1em 2em 1em 0;
+      padding-left: 2em;
     }
   }
 
