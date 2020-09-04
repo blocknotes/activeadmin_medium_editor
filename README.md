@@ -25,7 +25,7 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 - Use the input with `as: :medium_editor` in Active Admin model conf
 - **data-options**: permits to set *medium-editor* options directly - see [options list](https://github.com/yabwe/medium-editor#mediumeditor-options) (examples below)
 
-> Why 2 separated scripts/styles? In this way you can include a different version of *medium-editor* if you like.
+> Why 2 separated scripts/styles? In this way you can include a different version of *medium-editor* if you like
 
 > **UPDATE FROM VERSION < 2.8**: please change your _app/assets/stylesheets/active_admin.scss_ using the new import lines above
 
@@ -34,9 +34,9 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 ### Basic usage
 
 ```ruby
-# Active Admin article form conf:
+# Active Admin post form conf:
   form do |f|
-    f.inputs 'Article' do
+    f.inputs 'Post' do
       f.input :title
       f.input :description, as: :medium_editor, input_html: { data: { options: '{"spellcheck":false,"toolbar":{"buttons":["bold","italic","underline","anchor"]}}' } }
       f.input :published
