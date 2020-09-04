@@ -27,7 +27,7 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 
 > Why 2 separated scripts/styles? In this way you can include a different version of *medium-editor* if you like
 
-> **UPDATE FROM VERSION < 2.8**: please change your _app/assets/stylesheets/active_admin.scss_ using the new import lines above
+> **UPDATE FROM VERSION < 0.2.8**: please change your _app/assets/stylesheets/active_admin.scss_ using the new import lines above
 
 ## Examples
 
