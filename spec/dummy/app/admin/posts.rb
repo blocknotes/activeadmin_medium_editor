@@ -30,10 +30,11 @@ ActiveAdmin.register Post do
   end
 
   form do |f|
+    toolbar = { buttons: %w[bold italic underline justifyCenter html] }
     f.inputs 'Post' do
       f.input :author
       f.input :title
-      f.input :description, as: :medium_editor
+      f.input :description, as: :medium_editor, input_html: { data: { options: { toolbar: toolbar } } }
       f.input :category
       f.input :dt
       f.input :position

@@ -17,6 +17,9 @@ RSpec.describe 'Medium editor', type: :system do
     it 'updates some HTML content' do
       visit "/admin/posts/#{post.id}/edit"
 
+      %w[bold italic underline justifyCenter html].each do |button|
+        expect(page).to have_css(".medium-editor-action[data-action=\"#{button}\"]", visible: :hidden)
+      end
       expect(page).to have_css('#post_description[data-aa-medium-editor]', visible: :hidden)
       expect(page).to have_css('#post_description_input .medium-editor-element', text: 'Some content...')
       find('#post_description_input .medium-editor-element').click
