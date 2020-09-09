@@ -17,6 +17,7 @@ RSpec.describe 'Medium editor', type: :system do
     it 'updates some HTML content' do
       visit "/admin/posts/#{post.id}/edit"
 
+      expect(page).to have_css('#post_description[data-aa-medium-editor]', visible: :hidden)
       expect(page).to have_css('#post_description_input .medium-editor-element', text: 'Some content...')
       find('#post_description_input .medium-editor-element').click
       find('#post_description_input .medium-editor-element').base.send_keys(' more text')
