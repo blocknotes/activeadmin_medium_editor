@@ -30,7 +30,7 @@ ActiveAdmin.register Post do
   end
 
   form do |f|
-    toolbar = { buttons: %w[bold italic underline justifyCenter html] }
+    toolbar = { buttons: %w[bold italic underline justifyCenter indent html] }
     f.inputs 'Post' do
       f.input :author
       f.input :title

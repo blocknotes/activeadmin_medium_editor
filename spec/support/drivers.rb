@@ -2,6 +2,7 @@
 
 RSpec.configure do |config|
   config.before(:each, type: :system) do
-    driven_by(:selenium_chrome_headless)
+    driver = ENV.fetch('SPEC_JS_DRIVER', :selenium_chrome_headless).to_sym
+    driven_by(driver)
   end
 end
