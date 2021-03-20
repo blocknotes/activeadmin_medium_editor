@@ -2,6 +2,8 @@
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
+**IMPORTANT NOTICE**: while I like the Medium Editor idea of having floating buttons, it looks like that they are slow to release new stable versions. Some editor bugs are related to this problem unfortunately.
+
 ![screenshot](screenshot.png)
 
 ## Usage
@@ -55,9 +57,9 @@ f.input :description, as: :medium_editor, input_html: { data: { options: { toolb
 For details about the buttons' effect please refer to medium-editor documentation.
 
 ## Do you like it? Star it!
-If you use this component just star it. A developer is more motivated to improve a project when there is some interest.
+If you use this component just star it. A developer is more motivated to improve a project when there is some interest. My other [Active Admin components](https://github.com/blocknotes?utf8=✓&tab=repositories&q=activeadmin&type=source).
 
-Take a look at [other Active Admin components](https://github.com/blocknotes?utf8=✓&tab=repositories&q=activeadmin&type=source) that I made if you are curious.
+Or consider offering me a coffee, it's a small thing but it is greatly appreciated: [about me](https://www.blocknot.es/about-me).
 
 ## Contributors
 - [Mattia Roccoberton](http://blocknot.es): author
