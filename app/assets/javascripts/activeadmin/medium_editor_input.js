@@ -14,11 +14,7 @@
   }
 
   // --- events ----------------------------------------------------------------
-  $(document).ready(() => {
-    initMediumEditors()
-  })
-
-  $(document).on('has_many_add:after', '.has_many_container', () => {
-    initMediumEditors()
-  })
+  $(document).ready(initMediumEditors)
+  $(document).on('has_many_add:after', '.has_many_container', initMediumEditors)
+  $(document).on('turbolinks:load', initMediumEditors)
 })()
