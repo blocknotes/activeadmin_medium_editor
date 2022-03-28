@@ -18,7 +18,8 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 
 ## Install
 
-- After installing Active Admin, add to your Gemfile: `gem 'activeadmin_medium_editor'` (and execute *bundle*)
+- After installing Active Admin, add to your Gemfile: `gem 'activeadmin_medium_editor'`
+- Add also a SASS/SCSS gem to your Gemfile (ex. `gem 'sassc'`)
 - Add at the end of your Active Admin styles (_app/assets/stylesheets/active_admin.scss_):
 ```scss
 @import 'activeadmin/medium_editor/medium_editor';
