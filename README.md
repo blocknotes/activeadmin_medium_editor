@@ -1,8 +1,11 @@
 # Active Admin Medium Editor
 [![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
 [![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor)
+
 [![linters](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml)
-[![specs](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml)
+[![specs Rails 6.0](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails60.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails60.yml)
+[![specs Rails 6.1](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails61.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails61.yml)
+[![specs Rails 7.0](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails70.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails70.yml)
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
