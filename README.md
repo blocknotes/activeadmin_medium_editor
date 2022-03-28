@@ -1,11 +1,14 @@
 # Active Admin Medium Editor
-[![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor) [![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor) [![linters](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml) [![specs](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml)
+[![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
+[![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor)
+[![linters](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml)
+[![specs](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml)
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
 **IMPORTANT NOTICE**: while I like the Medium Editor idea of having floating buttons, it looks like that they are slow to release new stable versions. Some editor bugs are related to this problem unfortunately.
 
-![screenshot](screenshot.png)
+![screenshot](extra/screenshot.png)
 
 ## Usage
 
@@ -67,7 +70,7 @@ Or consider offering me a coffee, it's a small thing but it is greatly appreciat
 
 ## Contributors
 
-- [Mattia Roccoberton](http://blocknot.es): author
+- [Mattia Roccoberton](https://blocknot.es): author
 - The good guys that opened issues and pull requests from time to time
 
 ## License
