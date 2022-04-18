@@ -1,9 +1,7 @@
 # Active Admin Medium Editor
 [![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
 [![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor)
-
 [![linters](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml)
-[![specs Rails 6.0](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails60.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails60.yml)
 [![specs Rails 6.1](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails61.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails61.yml)
 [![specs Rails 7.0](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails70.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails70.yml)
 
@@ -65,6 +63,10 @@ f.input :description, as: :medium_editor, input_html: { data: { options: { toolb
 ```
 
 For details about the buttons' effect please refer to medium-editor documentation.
+
+## Changelog
+
+The changelog is available [here](CHANGELOG.md).
 
 ## Do you like it? Star it!
 
