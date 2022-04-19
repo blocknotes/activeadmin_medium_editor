@@ -1,11 +1,15 @@
 # Active Admin Medium Editor
-[![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor) [![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor) [![linters](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml) [![specs](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs.yml)
+[![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
+[![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor)
+[![linters](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/linters.yml)
+[![specs Rails 6.1](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails61.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails61.yml)
+[![specs Rails 7.0](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails70.yml/badge.svg)](https://github.com/blocknotes/activeadmin_medium_editor/actions/workflows/specs_rails70.yml)
 
 An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-editor), a compact and clean WYSIWYG editor.
 
 **IMPORTANT NOTICE**: while I like the Medium Editor idea of having floating buttons, it looks like that they are slow to release new stable versions. Some editor bugs are related to this problem unfortunately.
 
-![screenshot](screenshot.png)
+![screenshot](extra/screenshot.png)
 
 ## Usage
 
@@ -15,7 +19,8 @@ An Active Admin plugin to use [medium-editor](https://github.com/yabwe/medium-ed
 
 ## Install
 
-- After installing Active Admin, add to your Gemfile: `gem 'activeadmin_medium_editor'` (and execute *bundle*)
+- After installing Active Admin, add to your Gemfile: `gem 'activeadmin_medium_editor'`
+- Add also a SASS/SCSS gem to your Gemfile (ex. `gem 'sassc'`)
 - Add at the end of your Active Admin styles (_app/assets/stylesheets/active_admin.scss_):
 ```scss
 @import 'activeadmin/medium_editor/medium_editor';
@@ -59,6 +64,10 @@ f.input :description, as: :medium_editor, input_html: { data: { options: { toolb
 
 For details about the buttons' effect please refer to medium-editor documentation.
 
+## Changelog
+
+The changelog is available [here](CHANGELOG.md).
+
 ## Do you like it? Star it!
 
 If you use this component just star it. A developer is more motivated to improve a project when there is some interest. My other [Active Admin components](https://github.com/blocknotes?utf8=✓&tab=repositories&q=activeadmin&type=source).
@@ -67,7 +76,7 @@ Or consider offering me a coffee, it's a small thing but it is greatly appreciat
 
 ## Contributors
 
-- [Mattia Roccoberton](http://blocknot.es): author
+- [Mattia Roccoberton](https://blocknot.es): author
 - The good guys that opened issues and pull requests from time to time
 
 ## License
