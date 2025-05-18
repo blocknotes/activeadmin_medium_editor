@@ -1,3 +1,11 @@
+# PROJECT UNMAINTAINED
+
+> *This project is not maintained anymore*
+>
+> *If you like it or continue to use it fork it please.*
+
+---
+
 # Active Admin Medium Editor
 [![gem version](https://badge.fury.io/rb/activeadmin_medium_editor.svg)](https://badge.fury.io/rb/activeadmin_medium_editor)
 [![Gem downloads](https://badgen.net/rubygems/dt/activeadmin_medium_editor)](https://rubygems.org/gems/activeadmin_medium_editor)
