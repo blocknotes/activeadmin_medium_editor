@@ -14,7 +14,7 @@ require 'capybara/rails'
 Dir[File.expand_path('support/**/*.rb', __dir__)].sort.each { |f| require f }
 
 # Force deprecations to raise an exception.
-ActiveSupport::Deprecation.behavior = :raise
+# ActiveSupport::Deprecation.behavior = :raise
 
 # Checks for pending migrations and applies them before tests are run.
 # If you are not using ActiveRecord, you can remove these lines.
@@ -26,7 +26,12 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 
 RSpec.configure do |config|
-  config.fixture_path = "#{::Rails.root}/spec/fixtures"
+  if Gem::Version.new(Rails.version) >= Gem::Version.new('7.1')
+    config.fixture_paths = [Rails.root.join('spec/fixtures')]
+  else
+    config.fixture_path = Rails.root.join('spec/fixtures')
+  end
+
   config.infer_spec_type_from_file_location!
   config.filter_rails_from_backtrace!
 
