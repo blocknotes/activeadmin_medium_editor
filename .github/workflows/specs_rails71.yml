@@ -1,5 +1,5 @@
 ---
-name: Specs Rails 7.0
+name: Specs Rails 7.1
 
 on:
   pull_request:
@@ -13,10 +13,10 @@ jobs:
 
     strategy:
       matrix:
-        ruby: ['3.0', '3.2']
+        ruby: ['3.2', '3.4']
 
     env:
-      RAILS_VERSION: 7.0
+      RAILS_VERSION: 7.1
 
     steps:
       - name: Checkout repository
